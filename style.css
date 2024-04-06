@@ -1,5 +1,54 @@
+/* Internal CSS */
+/* Styling the body */
 body {
-  width: 100%;
-  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
   margin: 0;
+  padding: 0;
 }
+
+/* Styling the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling the navigation menu */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling the main content */
+.main-content {
+  padding: 20px;
+}
+
+/* Styling the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
